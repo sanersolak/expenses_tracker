@@ -1,1 +1,9 @@
 include: package:flutter_lints/flutter.yaml
+
+# If the above path is incorrect, you can add the lint rules directly here:
+linter:
+  rules:
+	- avoid_print
+	- prefer_const_constructors
+	- prefer_const_literals_to_create_immutables
+	# Add other lint rules as needed
